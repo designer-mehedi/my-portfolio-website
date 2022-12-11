@@ -5,7 +5,7 @@ import project3 from '../../../assets/project3.png'
 
 const MyProjects = () => {
     return (
-        <section className="lg:container lg:px-32 py-20">
+        <section className="lg:container lg:px-32 px-4 py-20">
             <h2 className="text-center text-3xl font-bold mb-10">My Projects</h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">

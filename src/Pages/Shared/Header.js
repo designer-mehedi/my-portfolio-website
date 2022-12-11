@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div>    
-            <div className="navbar lg:container px-32 text-white">
+            <div className="navbar lg:container lg:px-32 px-4 lg:text-white">
                 <div className="navbar-start w-full flex justify-between">
                     <Link className="btn btn-ghost normal-case text-xl">M.Tonmoy</Link>
                   <div className="dropdown relative">
