@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -7,19 +7,8 @@ const Header = () => {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/skills">Skills</Link></li>
         <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><a href="#contact">Contact</a></li>
     </>
-
-    const [bgcolor, setBgcolor] = useState(false);
-    const changeBg = () => {
-      if(window.scrollY >= 200) {
-        setBgcolor(true)
-      } else {
-        setBgcolor(false)
-      }
-    }
-
-    window.addEventListener("scroll", changeBg);
 
     return (
         <div>    
