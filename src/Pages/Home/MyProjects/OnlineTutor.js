@@ -42,9 +42,9 @@ const OnlineTutor = () => {
                     </div>
                     <h3 className="text-2xl font-semibold mb-5 pt-10">Useful Links</h3>
                     <ul className="font-medium text-lg">
-                        <li className="mb-2"><a href=" " className="hover:underline hover:text-sky-600">Live Website</a></li>
-                        <li className="mb-2"><a href=" " className="hover:underline hover:text-sky-600">Github Client</a></li>
-                        <li><a href=" " className="hover:underline hover:text-sky-600">Github Server</a></li>
+                        <li className="mb-2"><a href="https://learning-project-app.web.app/" className="hover:underline hover:text-sky-600">Live Website</a></li>
+                        <li className="mb-2"><a href="https://github.com/designer-mehedi/learning-app-client" className="hover:underline hover:text-sky-600">Github Client</a></li>
+                        <li><a href="https://github.com/designer-mehedi/learning-app-server" className="hover:underline hover:text-sky-600">Github Server</a></li>
                     </ul>
                 </div>
             </div>

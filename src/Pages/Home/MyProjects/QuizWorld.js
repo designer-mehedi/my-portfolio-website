@@ -41,8 +41,8 @@ const QuizWorld = () => {
                     </div>
                     <h3 className="text-2xl font-semibold mb-5 pt-10">Useful Links</h3>
                     <ul className="font-medium text-lg">
-                        <li className="mb-2"><a href=" " className="hover:underline hover:text-sky-600">Live Website</a></li>
-                        <li><a href=" " className="hover:underline hover:text-sky-600">Github Source Code</a></li>
+                        <li className="mb-2"><a href="https://subtle-cat-889708.netlify.app/" className="hover:underline hover:text-sky-600">Live Website</a></li>
+                        <li><a href="https://github.com/designer-mehedi/quiz-app" className="hover:underline hover:text-sky-600">Github Source Code</a></li>
                     </ul>
                 </div>
             </div>
