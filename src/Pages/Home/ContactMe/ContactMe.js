@@ -4,7 +4,6 @@ import { toast } from "react-hot-toast";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaEnvelope, FaLinkedin, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 const ContactMe = () => {
 

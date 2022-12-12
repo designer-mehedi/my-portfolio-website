@@ -3,7 +3,7 @@ import about from '../../../assets/about.jpg'
 
 const AboutMe = () => {
     return (
-        <section className="lg:container lg:px-32 px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 py-28">
+        <section className="lg:container lg:px-32 px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 py-28" id="about">
             <div>
                 <img src={about} alt="" />
             </div>

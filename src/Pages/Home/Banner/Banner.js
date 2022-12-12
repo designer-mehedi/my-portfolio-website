@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
     return (
-        <div className="flex gap-5 lg:justify-center lg:items-center flex-col lg:flex-row lg:container lg:px-32 px-4 lg:mt-[-65px] bg-cover lg:py-32 py-10" style={{
+        <div className="flex gap-5 lg:justify-center lg:items-center flex-col lg:flex-row lg:container lg:px-32 px-4  bg-cover lg:py-32 py-10" style={{
             background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(${bg})`,
             // height: "100vh",
             backgroundRepeat: "no-repeat",

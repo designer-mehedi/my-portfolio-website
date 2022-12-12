@@ -2,7 +2,7 @@ import React from 'react';
 
 const MySkills = () => {
     return (
-        <section className="lg:container lg:px-32 px-4">
+        <section className="lg:container lg:px-32 px-4" id="skills">
             <h2 className="text-center font-bold text-3xl">My Skills</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 py-20 lg:gap-10 gap-5">
                 <div className="left">

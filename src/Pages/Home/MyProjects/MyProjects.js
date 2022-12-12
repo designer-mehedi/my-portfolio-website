@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import project1 from '../../../assets/project1.png'
 import project2 from '../../../assets/project2.png'
 import project3 from '../../../assets/project3.png'
 
 const MyProjects = () => {
     return (
-        <section className="lg:container lg:px-32 px-4 py-20">
+        <section className="lg:container lg:px-32 px-4 py-20" id="projects">
             <h2 className="text-center text-3xl font-bold mb-10">My Projects</h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -21,6 +22,7 @@ const MyProjects = () => {
                             View Site
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
+                        <Link to="/online-tutor"><button className="bg-sky-600 px-3 py-[6px] text-white rounded-md ml-4 font-medium">Details</button></Link>
                     </div>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -36,6 +38,7 @@ const MyProjects = () => {
                             View Site
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
+                        <Link to="/quiz-world"><button className="bg-sky-600 px-3 py-[6px] text-white rounded-md ml-4 font-medium">Details</button></Link>
                     </div>
                 </div>
                 <div class="bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -51,6 +54,7 @@ const MyProjects = () => {
                             View Site
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
+                        <Link to="/activity-club"><button className="bg-sky-600 px-3 py-[6px] text-white rounded-md ml-4 font-medium">Details</button></Link>
                     </div>
                 </div>
 
