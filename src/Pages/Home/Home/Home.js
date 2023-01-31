@@ -8,11 +8,11 @@ import MySkills from "../MySkills/MySkills";
 const Home = () => {
     return (
         <div id="home">
-            <Banner/>
-            <AboutMe/>
-            <MySkills/>
-            <MyProjects/>
-            <ContactMe/>
+            <Banner />
+            <AboutMe />
+            <MySkills />
+            <MyProjects />
+            <ContactMe />
         </div>
     );
 };

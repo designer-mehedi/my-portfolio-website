@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import About from "../Pages/About/About";
+import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import Home from "../Pages/Home/Home/Home";
 import ActivityClub from "../Pages/Home/MyProjects/ActivityClub";
@@ -11,41 +12,45 @@ import Skills from "../Pages/Skills/Skills";
 
 export const router = createBrowserRouter([
     {
-        path: "/", 
-        element: <Main/>,
+        path: "/",
+        element: <Main />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
             },
             {
                 path: "about",
-                element: <About/>
+                element: <About />
             },
             {
                 path: "skills",
-                element: <Skills/>
+                element: <Skills />
             },
             {
                 path: "projects",
-                element: <Projects/>
+                element: <Projects />
             },
             {
                 path: 'online-tutor',
-                element: <OnlineTutor/>
+                element: <OnlineTutor />
             },
             {
                 path: 'quiz-world',
-                element: <QuizWorld/>
+                element: <QuizWorld />
             },
             {
                 path: 'activity-club',
-                element: <ActivityClub/>
+                element: <ActivityClub />
+            },
+            {
+                path: "blog",
+                element: <Blog />
             },
             {
                 path: "contact",
-                element: <Contact/>
+                element: <Contact />
             }
-        ]
-    }
+        ],
+    },
 ])
